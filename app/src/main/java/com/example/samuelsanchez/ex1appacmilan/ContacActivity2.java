@@ -62,6 +62,7 @@ public class ContacActivity2 extends AppCompatActivity {
         });
          btnStar.setOnClickListener(new View.OnClickListener() {
              @Override
+
              public void onClick(View view) {
                  if (email.contains("@") && email.contains(".")){
                      Toast toast1 = Toast.makeText(getApplicationContext(), "Felicidades eres fan del mejor equipo del mundo", Toast.LENGTH_SHORT);
