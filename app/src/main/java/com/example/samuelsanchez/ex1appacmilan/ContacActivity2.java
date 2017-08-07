@@ -63,17 +63,16 @@ public class ContacActivity2 extends AppCompatActivity {
          btnStar.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
-                 if(email.contains("@")&&(email.contains("."))){
-                     Toast toast1 = Toast.makeText(getApplicationContext(), "Correo invalido", Toast.LENGTH_SHORT);
-                     toast1.show();
-
-                 }else{
+                 if (email.contains("@") && email.contains(".")){
                      Toast toast1 = Toast.makeText(getApplicationContext(), "Felicidades eres fan del mejor equipo del mundo", Toast.LENGTH_SHORT);
                      toast1.show();
                      Intent mailIntent = new Intent(Intent.ACTION_VIEW);
                      mailIntent.setData(Uri.parse("https://mail.google.com/mail/u/0/#inbox"));
                      startActivity(mailIntent);
 
+                 }else{
+                     Toast toast1 = Toast.makeText(getApplicationContext(), "Correo invalido", Toast.LENGTH_SHORT);
+                     toast1.show();
                  }
              }
          });
