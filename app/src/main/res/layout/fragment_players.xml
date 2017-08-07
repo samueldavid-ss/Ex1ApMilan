@@ -1,0 +1,791 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.samuelsanchez.ex1appacmilan.PlayersFragment">
+
+    <TextView
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plantilla" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:shrinkColumns="1,2,3,4,5"
+        android:stretchColumns="1,2,3,4,5">
+        <TableRow>
+            <TextView
+                android:text="JUGADORES"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="PJ"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="G"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="TA"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="TR"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="CS"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="G. Donnarumma"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="A. Donnarumma"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Gabriel"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="R. Rodriguez"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="D. Calabria"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="L. Bonucci"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="A. Rommagnoli"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="M. Musacchio"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="C. Zapata"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="A. Conti"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="L. Antonelli"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="I. Abate"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+
+        <!--  nueva -->
+        <TableRow>
+            <TextView
+                android:text="L. Biglia"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="F. Kessie"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="M. Locatelli"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="R. Montolivo"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="G. Bonaventura"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="H. Calhanoglu"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Suso"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="A. Silva"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="M. Niang"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="P. Cutrone"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="C. Bacca"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="1"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="F. Borni"
+                android:padding="3dip"
+                />
+            <TextView
+                android:layout_column="1"
+                android:text="3"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="2"
+                android:text="0"
+                android:gravity="right"
+                android:padding="3dip" />
+            <TextView
+                android:layout_column="3"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="4"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+            <TextView
+                android:layout_column="5"
+                android:gravity="right"
+                android:text="0"
+                android:padding="3dp" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>
+</ScrollView>
